@@ -1,0 +1,49 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Personal application settings
+config.json
+settings.local.json
+*.local.json
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.bak
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# IDE and OS files
+.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local test artifacts
+screenshots/
+test-results/
+
+# Codex local workspace settings
+.codex/
